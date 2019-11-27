@@ -13,10 +13,13 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.paragraph}>
-          Change code in the editor and watch it change on your phone! Save to get a shareable url.
+          Quader Schulhaus
         </Text>
         <Card>
           <AssetExample />
+        </Card>
+        <Card style={styles.button}>
+          Aufgaben
         </Card>
       </View>
     );
@@ -37,4 +40,9 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
   },
+  button: {
+    marginTop: 20,
+    padding: 5,
+    textAlign: 'center',
+  }
 });
