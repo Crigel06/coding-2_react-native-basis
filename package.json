@@ -20,6 +20,7 @@
     "react-dom": "16.8.3",
     "react-native-web": "0.11.7",
     "react-native-paper": "2.16.0",
-    "react-native-sortable-listview": "0.2.8"
+    "react-native-sortable-listview": "0.2.8",
+    "react-native-elements": "1.2.7"
   }
 }
